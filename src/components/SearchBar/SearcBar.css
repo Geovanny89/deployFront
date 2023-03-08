@@ -1,0 +1,11 @@
+.buscar{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buscar input{
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+}

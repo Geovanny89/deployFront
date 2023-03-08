@@ -1,0 +1,33 @@
+html{
+    background: url('https://cdn.colombia.com/sdi/2022/08/05/crean-primera-sala-cine-para-perros-sudamerica-asi-fue-primera-funcion-1054464.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.contenedor{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style:oblique;
+ 
+}
+.contenedor h1{
+    text-align: center;
+
+}
+.contenedor button{
+    text-align: center;
+    background-color: rgb(255, 248, 124);
+    margin-top: 470px;
+    font-size: 20px;
+    color: rgb(18, 18, 19);
+    border-radius: 15px;
+    cursor: unset;
+    margin-left: 45%; 
+    font-size: 20px;
+    
+}
+.contenedor button:hover{
+    background: rgb(27, 27, 27);
+    color: rgb(255, 254, 254);
+}

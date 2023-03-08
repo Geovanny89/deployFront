@@ -1,0 +1,117 @@
+
+.form{
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 25px;
+    background: rgba(183, 199, 179, 0.541);
+    width: 800px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 350px;
+    /* background-image: url('https://static.vecteezy.com/system/resources/previews/002/705/240/non_2x/background-of-dog-paw-prints-vector.jpg'); */
+
+}
+.form button{
+    background-color: black;
+    color:white;
+    border: 2px solid white;
+    border-radius:8px ;
+    height: 30px;
+    margin-left: 500px;
+}
+.form button:hover{
+    background-color: white;
+    color: black;
+    border:2px solid black;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(39, 24, 0);
+    text-align: left;
+
+}
+.name input{
+    height: 25px;
+    width: 465px;
+    margin: 8px;
+    border: 2px solid rgb(27, 25, 25);
+    background-color: rgb(193, 193, 197);
+    border-radius: 12px;
+}
+.error1 p{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+}
+
+.opcion{
+    margin: 5px;
+    padding: 0px;
+    display: flex;
+
+   
+}
+.opcionPeso{
+    margin: 5px;
+    padding: 0px;
+    display: flex;
+    text-align: center;
+}
+.peso h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.frase h3{
+    text-align: center;
+}
+
+.lifes{
+    margin: 0;
+    display: flex;
+    
+    
+}
+.tempera{
+    
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.tempera select{
+    border: 2px solid rgb(27, 25, 25);
+    border-radius: 12px;
+
+
+}
+.tempera button{
+    margin-left: 250px;
+}
+.button{
+    padding: 0px;
+    margin: 0px;
+   
+    width: 100px;
+    height: 70px;
+    display: flex;
+    font-size: 25px;
+    border-radius: 8px;
+    
+    margin-left: 210PX;
+    color: rgb(3, 3, 3);
+    
+
+}
+.button p{
+    margin: 0px;
+}
+.button .botonX{
+    margin-left: 10px;
+}
+.altura h3{
+    margin-left: 210px;
+    font-size: 25px;
+}
