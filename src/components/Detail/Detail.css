@@ -1,0 +1,79 @@
+
+.detalle{
+    background-image: url('https://www.bunko.pet/__export/1668118312898/sites/debate/img/2022/11/10/buen-fin-perros-croquetas.jpg_554688468.jpg');
+    border: 4px solid black;
+    border-radius: 8px;
+    width: 507px;
+    
+    margin: 10px auto;
+    display: flex;
+    text-align: center;
+ 
+}
+
+
+.image img{
+    border: 2px solid rgb(255, 252, 252);
+    border-radius: 8px;
+    width: 350px;
+    height: 250px;
+}
+.nombre h1{
+    font-weight: bold;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    color:rgb(243, 234, 234); 
+    font-size: 45px;
+    text-align: center;
+   
+}
+.volver button{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 5px;
+    margin-left: 450px;
+}
+.volver button:hover{
+    background-color: white;
+    color: black;
+    cursor:cell;
+}
+
+.tempe{
+   
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: rgb(44, 41, 41); 
+}
+.tempe h4{
+    margin: 0;
+}
+.info{
+    height: 40px;
+    font-size: 25px;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: rgb(44, 41, 41); 
+   
+ 
+}
+.altura{
+    margin-left: 85px;
+}
+
+.info h4{
+    margin: 40px;
+}
+.life{
+    
+    font-size: 25px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: rgb(44, 41, 41);
+}
+.life h4{
+    height:10px;
+}

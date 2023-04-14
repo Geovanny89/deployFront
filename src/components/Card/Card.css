@@ -1,0 +1,56 @@
+
+.card{
+    
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border: 2px solid rgb(27, 27, 27);
+    height: 420px;
+    width: 250px;
+    margin: 15px;
+    margin-top: 25px;
+    background-image: url('https://www.bunko.pet/__export/1668118312898/sites/debate/img/2022/11/10/buen-fin-perros-croquetas.jpg_554688468.jpg');
+    border-radius: 5px;
+    float:left;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.cardbuton{
+    margin-top: 10px;
+
+}
+
+.card-nombre{
+    text-align: center;
+    color: black;
+    text-justify: auto;
+}
+.card-nombre h1 {
+    font-size: 20px;
+    
+}
+
+
+.card-img img{
+    height: 180px;
+    width: 190px;
+    border: 2px solid rgb(70, 68, 68);
+    border-radius: 5px ;
+}
+.card-tempe{
+    margin: 5px;
+    padding: 5px;
+    color: black;
+}
+.card-tempe p{
+    font-size: 15px;
+    text-decoration: none;
+}
+.card-peso{
+    color: black;
+    font-size: 20px;
+    padding: 0;
+}

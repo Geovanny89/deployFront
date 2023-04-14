@@ -1,0 +1,124 @@
+
+.form{
+    background-color: rgba(209, 201, 191, 0.534);
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 800px;
+    padding: 10px;
+    margin: 0 auto; /* Para centrar el formulario en la pantalla */
+}
+.form button{
+    background-color: black;
+    color:white;
+    border: 2px solid white;
+    border-radius:8px ;
+    height: 30px;
+    margin: 10px auto; /* Para centrar el botón en el formulario */
+}
+.form button:hover{
+    background-color: white;
+    color: black;
+    border:2px solid black;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(39, 24, 0);
+    text-align: left;
+}
+.name input{
+    height: 25px;
+    width: 465px;
+    margin: 8px;
+    border: 2px solid rgb(27, 25, 25);
+    background-color: rgb(193, 193, 197);
+    border-radius: 12px;
+}
+.error1 p{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+}
+.opcion{
+    margin: 5px;
+    padding: 0px;
+    display: flex;
+}
+.opcionPeso{
+    margin: 5px;
+    padding: 0px;
+    display: flex;
+    text-align: center;
+}
+.peso h3{
+    text-align: center;
+    font-size: 25px;
+}
+.frase h3{
+    text-align: center;
+}
+.lifes{
+    margin: 0;
+    display: flex;
+}
+.tempera{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.tempera select{
+    border: 2px solid rgb(27, 25, 25);
+    border-radius: 12px;
+}
+.tempera button{
+    margin-left: 250px;
+}
+.button{
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    height: 70px;
+    display: flex;
+    font-size: 25px;
+    border-radius: 8px;
+    flex-direction: column;
+    margin: 0 auto; /* Para centrar los botones */
+    color: rgb(3, 3, 3);
+}
+.button p{
+    margin: 0PX;
+}
+.button .botonX{
+    margin-left: 70px;
+}
+.altura h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
+@media screen and (max-width: 768px) {
+    .form {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    .name input {
+        width: 100%;
+    }
+    .opcion, .opcionPeso {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tempera {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tempera button {
+        margin-left: 0;
+        margin-top: 10px
+    }
+}
