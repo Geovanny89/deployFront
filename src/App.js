@@ -6,7 +6,7 @@ import CreatedDog from './components/CreateDog/CreateDog'
 import Detail from './components/Detail/Detail'
 import axios from'axios'
 
-axios.defaults.baseURL="http://localhost:3001"
+axios.defaults.baseURL="https://deployback-production-828c.up.railway.app/"
 
 function App() {
   return (
